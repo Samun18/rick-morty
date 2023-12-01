@@ -1,0 +1,33 @@
+.container__info {
+    background-color: #32872C;
+    padding: 5px 15px;
+    border-radius: 8px;
+    max-width: 750px;
+    margin: 10px auto;
+
+}
+
+.container__info__h2 {
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+}
+
+.container__info__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.container__info__li{
+    display: flex;
+    gap: 8px;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+.container__info__li span:nth-child(1){
+    color: #F0FFFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
